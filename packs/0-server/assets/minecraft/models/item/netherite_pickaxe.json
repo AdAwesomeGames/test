@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_pickaxe"
+  },
+  "overrides": [
+	{ "predicate": {"custom_model_data": 5}, "model": "custom:item/ad_drill"},
+	    { "predicate": {"custom_model_data": 11}, "model": "custom:item/pick_1"},
+		{ "predicate": {"custom_model_data": 12}, "model": "custom:item/pick_2"},
+		{ "predicate": {"custom_model_data": 13}, "model": "custom:item/pick_3"},
+		{ "predicate": {"custom_model_data": 21}, "model": "custom:item/gilded_neth"}
+  ]
+}
